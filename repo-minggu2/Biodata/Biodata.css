@@ -1,0 +1,61 @@
+
+* { box-sizing: border-box;
+}
+body {
+    margin: 0;
+
+}
+/* Style The Header */
+.header {
+    padding: 20px;
+    text-align: center;
+}
+
+.container{
+    background-color:rgb(49, 93, 109);
+    margin: 50px auto;
+    width: 900pt;
+    border-radius: 15px;
+
+}
+
+.biomhs{
+    color:white;
+}
+
+.body{
+    padding-bottom: 50px;
+    background-color:rgb(208, 220, 235);
+    background-size: cover;
+}
+
+/* Style krs */
+.krs{
+    font-family: sans-serif;
+    color:black;
+    background-color: white;
+    margin: 50px auto;
+    padding: 0px 0px 20px 0px;
+    width: 590pt;
+    border: groove;
+    border-width: thin;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+.krs tr th{
+    background:midnightblue ;
+    color: #fff;
+    font-weight: normal;
+}
+
+.krs, th, td{
+    padding: 8px 20px;
+}
+
+.trb {
+    background-color:darkgrey;
+}
+
+.trbody{
+    background-color:lightgrey;
+}
