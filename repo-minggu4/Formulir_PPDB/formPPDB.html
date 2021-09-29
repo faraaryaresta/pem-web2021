@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Formulir Pendaftaran</title>
+    </head>
+    <body background="wrapback.jpg" background-size="cover" style="height: 50%;">
+        <style>
+            .wrap{
+                width: 800px;
+                margin: 20px auto;
+                padding: 1px;
+            }
+        </style>
+        <div class="wrap">
+            <img src="background.jpg" width="800px">
+        </div>
+        <div class="wrap" style="background-color: white">
+            <br><h2 align="center">Formulir Pendaftaran Mahasiswa Baru 2021</h2><br>
+            <form action="pesan.php" method="get" name="fdaftar">
+                <table width ="750">
+                    <h3 style="background-color:rgb(169, 169, 189)" align="center">Informasi Pendaftaran</h3>
+                    <tr>
+                        <td><label for="fnisn">NISN</label></td>
+                        <td>: <input type="text" id="fnisn" name="fnisn" required=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fasalsekolah">Asal Sekolah</label></td>
+                        <td>: <input type="text" id="fasalsekolah" name="fasalsekolah" required=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="flulus">Tahun Lulus</label></td>
+                        <td>: <input type="text" id="flulus" name="flulus" required=""></td>
+                    </tr>
+                </table>
+                <table width ="800">
+                    <h3 style="background-color:rgb(169, 169, 189)" align="center">Data Calon Peserta</h3>
+                    <tr>
+                        <td><label for="fnama">Nama Lengkap</label></td>
+                        <td>: <input type="text" id="fnama" name="fnama" required=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fnik">NIK</label></td>
+                        <td>: <input type="text" id="fnik" name="fnik" required=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fttlahir">Tempat, Tanggal Lahir</label></td>
+                        <td>: <input type="text" id="fttlahir" name="fttlahir" required="">
+                            <input type="date" id="fttlahir"name="fttlahir"</td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>: <input type="radio" id="jenis_kelamin" name="jenis_kelamin" value="Laki-laki"> Laki-laki / 
+                            <input type="radio" id="fjenis_kelamin" name="jenis_kelamin" value="Perempuan"> Perempuan</td>
+                    </tr>
+                    <tr>
+                        <td><label for="fagama">Agama</label></td>
+                        <td>: <select id="fagama" name="fagama" required="">
+                            <option value="">::Agama::</option>
+                            <option value="islam">Islam</option>
+                            <option value="Kristen">Kristen</option>
+                            <option value="Khatolik">Khatolik</option>
+                            <option value="Hindu">Hindu</option>
+                            <option value="Budha">Budha</option>
+                            <option value="Konghucu">Konghucu</option>
+                            <option value="Lainnya">Lainnya</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="falamat">Alamat</label></td>
+                        <td>: <textarea type="text" id="falamat" name="falamat"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><label for="fdesa">Desa/kel</label></td>
+                        <td>: <input type="text" id="fdesa" name="fdesa" required=""></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><label for="fkec">Kecamatan</label></td>
+                        <td>: <input type="text" id="fkec" name="fkec" required=""></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><label for="fkab">Kabupaten</label></td>
+                        <td>: <input type="text" id="fkab" name="fkab" required=""></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><label for="fprov">Provinsi</label></td>
+                        <td>: <input type="text" id="fprov" name="fprov" required=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="femail">Email Aktif</label></td>
+                        <td>: <input type="email" id="femail" name="femail" required=""> </td>
+                    </tr>
+                </table>
+                <table width ="550">
+                    <h3 style="background-color:rgb(169, 169, 189)" align="center">Data Orang Tua</h3>
+                    <tr>
+                        <td><label for="fnokk">Nomor Kartu Keluarga</label></td>
+                        <td>: <input type="text" id="fnokk" name="fnokk" required=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fayah">Nama Ayah Kandung</label></td>
+                        <td>: <input type="text" id="fayah" name="fayah" required=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fagama_ayah">Agama</label></td>
+                        <td>: <select id="fagama_ayah" name="fagama_ayah" required="">
+                            <option value="">::Agama::</option>
+                            <option value="islam">Islam</option>
+                            <option value="Kristen">Kristen</option>
+                            <option value="Khatolik">Khatolik</option>
+                            <option value="Hindu">Hindu</option>
+                            <option value="Budha">Budha</option>
+                            <option value="Konghucu">Konghucu</option>
+                            <option value="Lainnya">Lainnya</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fkerja_ayah">Pekerjaan</label></td>
+                        <td>: <input type="text" id="fkerja_ayah" name="fkerja_ayah" required=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fibu">Nama Ibu Kandung</label></td>
+                        <td>: <input type="text" id="fibu" name="fibu" required=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fagama_ibu">Agama</label></td>
+                        <td>: <select id="fagama_ibu" name="fagama_ibu" required="">
+                            <option value="">::Agama::</option>
+                            <option value="islam">Islam</option>
+                            <option value="Kristen">Kristen</option>
+                            <option value="Khatolik">Khatolik</option>
+                            <option value="Hindu">Hindu</option>
+                            <option value="Budha">Budha</option>
+                            <option value="Konghucu">Konghucu</option>
+                            <option value="Lainnya">Lainnya</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fkerja_ibu">Pekerjaan</label></td>
+                        <td>: <input type="text" id="fkerja_ibu" name="fkerja_ibu" required=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="falamat_ortu">Alamat Orang Tua</label></td>
+                        <td>: <textarea type="text" id="falamat_ortu" name="falamat_ortu"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><label for="fdesa_ortu">Desa/kel</label></td>
+                        <td>: <input type="text" id="fdesa_ortu" name="fdesa_ortu" required=""></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><label for="fkec_ortu">Kecamatan</label></td>
+                        <td>: <input type="text" id="fkec_ortu" name="fkec_ortu" required=""></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><label for="fkab_ortu">Kabupaten</label></td>
+                        <td>: <input type="text" id="fkab_ortu" name="fkab_ortu" required=""></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><label for="fprov_ortu">Provinsi</label></td>
+                        <td>: <input type="text" id="fprov_ortu" name="fprov_ortu" required=""></td>
+                    </tr>
+                </table><br><br><br>
+                <table>
+                    <tr>
+                        <td colspan="2"><input type="submit" name="fsubmit" value="Kirim/Simpan">
+			                <input type="reset" value="reset" name="freset">
+                        </td>
+                    </tr>
+                </table><br><br><br>
+            </form>
+        </div>
+    </body>
+</html>
