@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mourist.id</title>
+    <link rel="stylesheet" type="text/css" href="css/pesan.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+</head>
+<body>
+<!-- HEADER  -->
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="image/label.jpg" alt="">
+            <h1>MOURIST.ID</h1>
+        </a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="register.html">Register</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="image/produkhijab/AyashaVPBlack.jpg" alt="">
+                <div class="content">
+                    <h3>Ayasha Hijab Voal Premium - Black</h3>
+                    <div class="price">Rp.45.000/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="image/produkhijab/AzahraKhaki.jpg" alt="">
+                <div class="content">
+                    <h3>Azahra Hijab Voal - Khaki</h3>
+                    <div class="price">Rp.35.000/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="image/produkhijab/AzahraVGray.jpg" alt="">
+                <div class="content">
+                    <h3>Azahra Hijab Voal - Gray</h3>
+                    <div class="price">Rp.25.000/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="image/produkhijab/AisyahMinkBrown.jpg" alt="">
+                <div class="content">
+                    <h3>Aisyah Hijab Voal - Milk Broen</h3>
+                    <div class="price">Rp.25.000/-</div>
+                </div>
+            </div>
+            <a href="pesan.html" class="btn">checkout now</a>
+        </div>
+
+        <div class="login-form">
+            <i class="fas fa-time" id="form-close">X</i>
+            <form action="">
+                <h1>Login</h1>
+                <h3>Email*</h3>
+                <input type="email" class="box" placeholder="Enter your email">
+                <h3>Password*</h3>
+                <input type="password" class="box" placeholder="Enter your password">
+                <input type="submit" value="login now" class="btn">
+                <input type="checkbox" id="remember">
+                <label for="remember">Remember me</label>
+                <p>Forget password? <a href="#">Click here</a></p>
+                <p>Don't have account?? <a href="register.html">Register now</a></p>
+            </form>
+        </div>
+
+    </header>
+<!-- hEADER -->
+
+<!-- SECTION PERTAMA -->
+    <section class="masuk" id="masuk">
+        <h1 class="heading"> FORM <span>PEMESANAN</span></h1>
+        <div class="row">
+            <div class="content">
+                <h3>Nama Lengkap</h3>
+                <input type="nama" class="box" placeholder="Nama anda.."> 
+                <h3>Nomor HP</h3>             
+                <input type="nomor" class="box" placeholder="Nomor HP anda..">
+                <h3>Email</h3>
+                <input type="email" class="box" placeholder="Masukkan email anda..">
+                <h3>Nama Barang</h3>
+                <input type="namabarang" class="box" placeholder="Nama barang yang dipesan..">
+                <h3>Jumlah Barang</h3>
+                <select type="jumlah" class="box">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <h3>Alamat</h3>
+                <textarea type="alamat" class="box" placeholder="Alamat rumah anda.." style="height:200px"></textarea>
+                <h3>Kode Pos</h3>
+                <input type="password" class="box" placeholder="Masukkan kode pos anda..">
+                <h3>Pesan</h3>
+                <textarea type="alamat" class="box" placeholder="Pesan anda.." style="height:200px"></textarea>
+                <input type="checkbox" id="remember">
+                <label for="remember">Data benar</label>
+                <input type="submit" value="KIRIM" class="btn">
+                <input type="submit" value="BATAL" class="btn">
+                <p>*Kami akan mengirimkan email untuk konfirmasi pembayaran. Harap cek email anda.</p>
+            </div>
+        </div>
+    </section>
+<!-- SECTION PERTAMA-->
+
+
+<!-- FOOTER -->
+    <footer class="footer">
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-youtube"></a>
+        </div>
+        <h1>Alamat Kantor</h1>
+        <address>
+            Jl. Melati No.12 , Mawar, Yogyakarta<br>
+            Phone : (021) 6352836248<br>
+            mouristid@gmail.com
+        </address>
+        <div class="credit">
+            &copy;2021 Mourits.id
+        </div>
+    </footer>
+<!-- FOOTER -->
+
+<!-- CUSTOM JS FILE LINK  -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
